@@ -1,0 +1,814 @@
+table 2026-1
+	lineageTag: a3561002-ab77-48ab-a0ea-307d320be9be
+
+	column PERIODO
+		dataType: string
+		lineageTag: 9b951d2a-a1c5-46e8-8295-2ec721f3dc6e
+		summarizeBy: none
+		sourceColumn: PERIODO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAMPUS
+		dataType: string
+		lineageTag: 6d4b70bb-5f28-4d31-8f69-c1af574617f8
+		summarizeBy: none
+		sourceColumn: CAMPUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column FACULTAD
+		dataType: string
+		lineageTag: 2a58aea1-2b07-4f62-bce3-dedc1c1d5577
+		summarizeBy: none
+		sourceColumn: FACULTAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COD. DUEÑO CURSO'
+		dataType: string
+		lineageTag: 3c103f0b-bb7d-4bd4-940a-384749d8cec4
+		summarizeBy: none
+		sourceColumn: COD. DUEÑO CURSO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'DUEÑO CURSO'
+		dataType: string
+		lineageTag: c4c24787-1adf-4f70-9b6e-aea3b073c67b
+		summarizeBy: none
+		sourceColumn: DUEÑO CURSO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COD. CURSO'
+		dataType: string
+		lineageTag: 66819042-136c-4807-8741-17c616c738d3
+		summarizeBy: none
+		sourceColumn: COD. CURSO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'NOMBRE CURSO'
+		dataType: string
+		lineageTag: 1aa60b1c-4863-4503-8453-84a1a7235119
+		summarizeBy: none
+		sourceColumn: NOMBRE CURSO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HRS PLAN CURSO'
+		dataType: double
+		lineageTag: 99cfd04e-83d1-4ce5-b0f4-f6cbbb31cd87
+		summarizeBy: sum
+		sourceColumn: HRS PLAN CURSO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NRC
+		dataType: string
+		lineageTag: 7ed0a380-07ae-46de-ae04-888bf2d5c3dd
+		summarizeBy: none
+		sourceColumn: NRC
+
+		annotation SummarizationSetBy = Automatic
+
+	column SECCION
+		dataType: string
+		lineageTag: 23390f7a-af1b-41c0-8c22-3035eaa1053d
+		summarizeBy: none
+		sourceColumn: SECCION
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTATUS
+		dataType: string
+		lineageTag: d7311f1e-f572-4b06-b0ad-1a74d88b79a8
+		summarizeBy: none
+		sourceColumn: ESTATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'LST CRZ'
+		dataType: string
+		lineageTag: bc8538a5-a02c-4a6a-ac79-66c8a9fee66b
+		summarizeBy: none
+		sourceColumn: LST CRZ
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ORIGEN LST CRZ'
+		dataType: string
+		lineageTag: 1a155e9d-8052-409b-b4ec-da68c9b4dbd0
+		summarizeBy: none
+		sourceColumn: ORIGEN LST CRZ
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SOBREPASO AULA'
+		dataType: string
+		lineageTag: 5e9b6816-e164-4695-9e5d-3f8d196f49e8
+		summarizeBy: none
+		sourceColumn: SOBREPASO AULA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TIP HOR'
+		dataType: string
+		lineageTag: 201f44e9-485e-49ad-a85e-16411704da41
+		summarizeBy: none
+		sourceColumn: TIP HOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'MET EDU'
+		dataType: string
+		lineageTag: ba61843a-c098-4b76-a3fb-c38939a47624
+		summarizeBy: none
+		sourceColumn: MET EDU
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PROYECTADO BOLSON'
+		dataType: double
+		lineageTag: 62a755a0-12ad-4cf5-9d83-f1e8aa9e6dcd
+		summarizeBy: sum
+		sourceColumn: PROYECTADO BOLSON
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MAXIMO
+		dataType: int64
+		lineageTag: 43fbe0ec-a1de-4ff0-af5d-8d6e4069bab1
+		summarizeBy: sum
+		sourceColumn: MAXIMO
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column REAL
+		dataType: double
+		lineageTag: bba62c37-6b11-49a2-a7c3-cfe5dcf61652
+		summarizeBy: sum
+		sourceColumn: REAL
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RESTANTE
+		dataType: double
+		lineageTag: 6cd26dc5-2f2d-4339-a6a7-4ea88afc6521
+		summarizeBy: sum
+		sourceColumn: RESTANTE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Hrs CREDITO'
+		dataType: double
+		lineageTag: 2dd275ef-e3d6-4839-913a-ce75d7880a22
+		summarizeBy: sum
+		sourceColumn: Hrs CREDITO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'ID DOCENTE'
+		dataType: string
+		lineageTag: d0487901-b6aa-49ef-8ba1-4b91565422f0
+		summarizeBy: none
+		sourceColumn: ID DOCENTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID RRHH'
+		dataType: string
+		lineageTag: a1007123-14f5-44c3-9fd1-e55ef2d63334
+		summarizeBy: none
+		sourceColumn: ID RRHH
+
+		annotation SummarizationSetBy = Automatic
+
+	column DOCENTE
+		dataType: string
+		lineageTag: 0852bd85-a5d2-474f-87fb-70d22c69a657
+		summarizeBy: none
+		sourceColumn: DOCENTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID PRINC'
+		dataType: string
+		lineageTag: c4cf5e6b-3093-4c90-abb5-581501ff5490
+		summarizeBy: none
+		sourceColumn: ID PRINC
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TIPO JORNADA'
+		dataType: string
+		lineageTag: 8265ef6b-7815-4116-a187-67a05e568e8a
+		summarizeBy: none
+		sourceColumn: TIPO JORNADA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ESTADO DOCENTE'
+		dataType: string
+		lineageTag: 1678f849-7316-47b7-bec7-413356ee0b81
+		summarizeBy: none
+		sourceColumn: ESTADO DOCENTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column MOTIVO
+		dataType: string
+		lineageTag: 7c771c24-5302-4c88-a8c7-4c2a355128ca
+		summarizeBy: none
+		sourceColumn: MOTIVO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SOCIO DE INTEGRACIÓN'
+		dataType: string
+		lineageTag: 298d5d65-040b-476a-8e21-5076370e8505
+		summarizeBy: none
+		sourceColumn: SOCIO DE INTEGRACIÓN
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FECHA INICIO'
+		dataType: double
+		lineageTag: aac41178-ac4b-43a6-a255-8473d479e813
+		summarizeBy: sum
+		sourceColumn: FECHA INICIO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'FECHA FIN'
+		dataType: double
+		lineageTag: e5ebf90d-a658-492c-a0d7-dfd32078c0b5
+		summarizeBy: sum
+		sourceColumn: FECHA FIN
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DIA
+		dataType: string
+		lineageTag: b8430a9a-3545-4070-bf9f-ca2dd9c860fe
+		summarizeBy: none
+		sourceColumn: DIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column HORA
+		dataType: string
+		lineageTag: 0ec532a8-28a3-43e7-bde1-9d2bd5df1553
+		summarizeBy: none
+		sourceColumn: HORA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TURNO
+		dataType: string
+		lineageTag: 763cd640-ea5a-4d40-9820-6806bc616e7b
+		summarizeBy: none
+		sourceColumn: TURNO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EDIFICIO
+		dataType: string
+		lineageTag: 380b91f4-96ed-4994-a960-f26e7548c12c
+		summarizeBy: none
+		sourceColumn: EDIFICIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column AULA
+		dataType: string
+		lineageTag: 37be1d13-e44a-4613-815f-c87c90b9bc6e
+		summarizeBy: none
+		sourceColumn: AULA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TIPO AMBIENTE'
+		dataType: string
+		lineageTag: b2b1b156-1531-4653-9492-639c3ec7707b
+		summarizeBy: none
+		sourceColumn: TIPO AMBIENTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IN/EX PROGRAMA'
+		dataType: string
+		lineageTag: 4e1aa0db-822f-4b0b-8158-a8137a362f4a
+		summarizeBy: none
+		sourceColumn: IN/EX PROGRAMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COD. PROGRAMAS COMPARTIDOS'
+		dataType: string
+		lineageTag: d5e60ecb-47ec-4378-b128-d8dea446f560
+		summarizeBy: none
+		sourceColumn: COD. PROGRAMAS COMPARTIDOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PROGRAMAS COMPARTIDOS'
+		dataType: string
+		lineageTag: 33e7bf56-9053-4dc2-ab18-3b780bd556ad
+		summarizeBy: none
+		sourceColumn: PROGRAMAS COMPARTIDOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IN/EX CAMPUS'
+		dataType: string
+		lineageTag: bce4e31c-3894-468d-a60a-5437198bd779
+		summarizeBy: none
+		sourceColumn: IN/EX CAMPUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAMPUS_1
+		dataType: string
+		lineageTag: 1d383af5-839b-40a5-9bbc-bc36b168f4a8
+		summarizeBy: none
+		sourceColumn: CAMPUS_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TIPO REQUISITO'
+		dataType: string
+		lineageTag: fcabfedb-2b81-4990-a4e9-d68e3eca6686
+		summarizeBy: none
+		sourceColumn: TIPO REQUISITO
+
+		annotation SummarizationSetBy = Automatic
+
+	column REQUISITOS
+		dataType: string
+		lineageTag: c398f1f4-2231-448d-9b74-5c152e83a508
+		summarizeBy: none
+		sourceColumn: REQUISITOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'BLOQUES HORARIOS'
+		dataType: string
+		lineageTag: aae60b0d-7563-4b4e-87da-bffac795afca
+		summarizeBy: none
+		sourceColumn: BLOQUES HORARIOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IN/EX ATRIBUTO'
+		dataType: string
+		lineageTag: 76c11bfa-9af5-455d-9629-34bc9c9b012b
+		summarizeBy: none
+		sourceColumn: IN/EX ATRIBUTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ATRIBUTOS
+		dataType: string
+		lineageTag: 5acf8fef-de1f-405b-ab50-1338eba23b2f
+		summarizeBy: none
+		sourceColumn: ATRIBUTOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IN/EX COHORTE'
+		dataType: string
+		lineageTag: 4c4846b8-92c9-4288-9326-419e7f1ad3cb
+		summarizeBy: none
+		sourceColumn: IN/EX COHORTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column COHORTES
+		dataType: string
+		lineageTag: 74e1df34-4b4f-45ed-af44-59c88b4899e6
+		summarizeBy: none
+		sourceColumn: COHORTES
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ATRIBUTOS BOLSON'
+		dataType: string
+		lineageTag: 6bcac917-734f-4b2d-891e-de34ac5a46ea
+		summarizeBy: none
+		sourceColumn: ATRIBUTOS BOLSON
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ATRIBUTOS BOLSON2'
+		dataType: string
+		lineageTag: 853bed3b-45bc-49be-b4e7-c752969835b8
+		summarizeBy: none
+		sourceColumn: ATRIBUTOS BOLSON2
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'MET EDU2'
+		dataType: string
+		lineageTag: ef57bf75-b810-4768-bb27-ca09c7f6901b
+		summarizeBy: none
+		sourceColumn: MET EDU2
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PROYECTADO BOLSON3'
+		dataType: string
+		lineageTag: 434b2eb7-735f-4e08-adde-f020eb90154f
+		summarizeBy: none
+		sourceColumn: PROYECTADO BOLSON3
+
+		annotation SummarizationSetBy = Automatic
+
+	column MAXIMO4
+		dataType: string
+		lineageTag: 89327a9d-86d0-431f-929c-5b259331f881
+		summarizeBy: none
+		sourceColumn: MAXIMO4
+
+		annotation SummarizationSetBy = Automatic
+
+	column REAL5
+		dataType: string
+		lineageTag: 92ffacc5-2fe5-465b-b5ff-b55d401352d3
+		summarizeBy: none
+		sourceColumn: REAL5
+
+		annotation SummarizationSetBy = Automatic
+
+	column RESTANTE6
+		dataType: string
+		lineageTag: 2c3e4804-6565-4810-b5a6-a906dced169f
+		summarizeBy: none
+		sourceColumn: RESTANTE6
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Hrs CREDITO7'
+		dataType: string
+		lineageTag: 9bd236c3-46b6-43d8-b06a-798cba9f5e08
+		summarizeBy: none
+		sourceColumn: Hrs CREDITO7
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID DOCENTE8'
+		dataType: string
+		lineageTag: 07919552-0982-41ae-b4f5-5c63807eeb0c
+		summarizeBy: none
+		sourceColumn: ID DOCENTE8
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID RRHH9'
+		dataType: string
+		lineageTag: 995f31f9-28e9-4677-ae2a-351ff308f75c
+		summarizeBy: none
+		sourceColumn: ID RRHH9
+
+		annotation SummarizationSetBy = Automatic
+
+	column DOCENTE10
+		dataType: string
+		lineageTag: 98baef94-628b-40a4-a031-0618634d179d
+		summarizeBy: none
+		sourceColumn: DOCENTE10
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID PRINC11'
+		dataType: string
+		lineageTag: dff233d3-2f19-4824-99f5-7e662b753671
+		summarizeBy: none
+		sourceColumn: ID PRINC11
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TIPO JORNADA12'
+		dataType: string
+		lineageTag: e1e3ba2f-e9f1-41b9-a9ae-a1cb09c79b81
+		summarizeBy: none
+		sourceColumn: TIPO JORNADA12
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ESTADO DOCENTE13'
+		dataType: string
+		lineageTag: 588a4d64-ce45-4f03-ba8b-0846e1de04a9
+		summarizeBy: none
+		sourceColumn: ESTADO DOCENTE13
+
+		annotation SummarizationSetBy = Automatic
+
+	column MOTIVO14
+		dataType: string
+		lineageTag: cdfd07d0-b87b-48bd-b46b-c4aea2b6e3a2
+		summarizeBy: none
+		sourceColumn: MOTIVO14
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SOCIO DE INTEGRACIÓN15'
+		dataType: string
+		lineageTag: 15e95027-59e5-4489-b319-72d30c5ce0c8
+		summarizeBy: none
+		sourceColumn: SOCIO DE INTEGRACIÓN15
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FECHA INICIO16'
+		dataType: string
+		lineageTag: 1a6113dc-542f-4d66-af5b-d6712b3b5475
+		summarizeBy: none
+		sourceColumn: FECHA INICIO16
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FECHA FIN17'
+		dataType: string
+		lineageTag: e5f5331d-ff77-4786-b957-d6cb6548760b
+		summarizeBy: none
+		sourceColumn: FECHA FIN17
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIA18
+		dataType: string
+		lineageTag: 9d19e1f9-f67e-486a-b415-c2a3aa70d893
+		summarizeBy: none
+		sourceColumn: DIA18
+
+		annotation SummarizationSetBy = Automatic
+
+	column HORA19
+		dataType: string
+		lineageTag: b246df62-874c-4e9d-b796-b8b4a8f04f54
+		summarizeBy: none
+		sourceColumn: HORA19
+
+		annotation SummarizationSetBy = Automatic
+
+	column TURNO20
+		dataType: string
+		lineageTag: 7254ded4-c508-45cf-ad38-879c2c7cfa4a
+		summarizeBy: none
+		sourceColumn: TURNO20
+
+		annotation SummarizationSetBy = Automatic
+
+	column EDIFICIO21
+		dataType: string
+		lineageTag: 44e11be3-b333-4147-8ecb-8595a399a4e8
+		summarizeBy: none
+		sourceColumn: EDIFICIO21
+
+		annotation SummarizationSetBy = Automatic
+
+	column AULA22
+		dataType: string
+		lineageTag: cbed6983-32cb-4104-b930-f5e9e20fe120
+		summarizeBy: none
+		sourceColumn: AULA22
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TIPO AMBIENTE23'
+		dataType: string
+		lineageTag: dd857efe-a90c-490d-99b9-2e0b23b08fe2
+		summarizeBy: none
+		sourceColumn: TIPO AMBIENTE23
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IN/EX PROGRAMA24'
+		dataType: string
+		lineageTag: d9c92ed2-c268-403c-92e5-f03c3ed6f7a5
+		summarizeBy: none
+		sourceColumn: IN/EX PROGRAMA24
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COD. PROGRAMAS COMPARTIDOS25'
+		dataType: string
+		lineageTag: 8b178fe5-c38c-469b-a101-b24c9e792d6c
+		summarizeBy: none
+		sourceColumn: COD. PROGRAMAS COMPARTIDOS25
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PROGRAMAS COMPARTIDOS26'
+		dataType: string
+		lineageTag: d2e035b0-6557-472b-bbf0-fcbacaa8c213
+		summarizeBy: none
+		sourceColumn: PROGRAMAS COMPARTIDOS26
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IN/EX CAMPUS27'
+		dataType: string
+		lineageTag: f54cd904-d648-41ac-a825-bb3caf12faee
+		summarizeBy: none
+		sourceColumn: IN/EX CAMPUS27
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAMPUS_128
+		dataType: string
+		lineageTag: 82baabf2-3d50-4f6e-9a41-b6255a9f2137
+		summarizeBy: none
+		sourceColumn: CAMPUS_128
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TIPO REQUISITO29'
+		dataType: string
+		lineageTag: 242ec742-197c-42ca-b4e9-dae63850a372
+		summarizeBy: none
+		sourceColumn: TIPO REQUISITO29
+
+		annotation SummarizationSetBy = Automatic
+
+	column REQUISITOS30
+		dataType: string
+		lineageTag: 37522e97-3dce-4e14-8c25-88c21e8d9cba
+		summarizeBy: none
+		sourceColumn: REQUISITOS30
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'BLOQUES HORARIOS31'
+		dataType: string
+		lineageTag: b5e75726-0e2b-4213-845e-b29f34fffef7
+		summarizeBy: none
+		sourceColumn: BLOQUES HORARIOS31
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IN/EX ATRIBUTO32'
+		dataType: string
+		lineageTag: 87aca24f-401f-475b-ab57-dec3f52160e0
+		summarizeBy: none
+		sourceColumn: IN/EX ATRIBUTO32
+
+		annotation SummarizationSetBy = Automatic
+
+	column ATRIBUTOS33
+		dataType: string
+		lineageTag: b0aea58a-a54e-4e96-b3d5-9397ce7a3d9c
+		summarizeBy: none
+		sourceColumn: ATRIBUTOS33
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IN/EX COHORTE34'
+		dataType: string
+		lineageTag: acadeda9-40d3-4abd-b464-6afecd658ef1
+		summarizeBy: none
+		sourceColumn: IN/EX COHORTE34
+
+		annotation SummarizationSetBy = Automatic
+
+	column COHORTES35
+		dataType: string
+		lineageTag: a80526c4-7575-44f1-9869-e106c48a34e3
+		summarizeBy: none
+		sourceColumn: COHORTES35
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ATRIBUTOS BOLSON36'
+		dataType: string
+		lineageTag: c7f8f237-d27e-45f7-9bcd-d2632b6442c2
+		summarizeBy: none
+		sourceColumn: ATRIBUTOS BOLSON36
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID SEDE'
+		dataType: int64
+		formatString: 0
+		lineageTag: 92a10201-2a30-4491-80d7-350dc831d269
+		summarizeBy: sum
+		sourceColumn: ID SEDE
+
+		annotation SummarizationSetBy = Automatic
+
+	column '% Avance' = DIVIDE( [REAL],[MAXIMO],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 27781035-cc72-4e92-b29c-192a5db33022
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Real/Max = [REAL] & "/" & [MAXIMO]
+		lineageTag: 2a38c147-7a48-4215-be01-5362008f3b7b
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'NRC Final' =
+			
+			VAR v1 = TRIM('2026-1'[ORIGEN LST CRZ])
+			VAR v2 = TRIM('2026-1'[NRC])
+			VAR v3 = TRIM('2026-1'[LST CRZ])
+			RETURN
+			IF(
+			    v1 <> "",
+			    '2026-1'[ORIGEN LST CRZ],
+			    IF(
+			        v2 <> "",
+			        '2026-1'[NRC],
+			        '2026-1'[LST CRZ]
+			    )
+			)
+		lineageTag: dfcb191b-871a-48d3-9c98-9091461afd22
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID Programacion' = ```
+			
+			'2026-1'[PERIODO] & "-" &
+			'2026-1'[NRC Final]
+			
+			```
+		lineageTag: 97b461d8-0fad-44d7-a374-65eab164d0e1
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo Periodo' = ```
+			
+			SWITCH(
+			    FORMAT('2026-1'[PERIODO], "0"),
+			    "226413", "UG",
+			    "226513", "WA",
+			    BLANK()
+			)
+			
+			```
+		lineageTag: c6e766d1-53dd-483b-b96a-4cc52f5142f9
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sede Final' = ```
+			
+			VAR campus = UPPER(TRIM('2026-1'[CAMPUS]))
+			VAR bloque = UPPER(TRIM('2026-1'[BLOQUES HORARIOS]))
+			VAR EsREM  = CONTAINSSTRING(campus,"REM")
+			
+			VAR SedeMap =
+			LOOKUPVALUE(
+			    Dim_Bloques_Sede[Sede formato],
+			    Dim_Bloques_Sede[BLOQUES HORARIOS],
+			    bloque
+			)
+			
+			RETURN
+			IF(
+			    NOT EsREM,
+			    '2026-1'[CAMPUS],
+			    COALESCE(SedeMap, '2026-1'[CAMPUS])
+			)
+			
+			```
+		lineageTag: 657cfbc6-3256-4be3-9025-e3563ced01c7
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 2026-1 = m
+		mode: import
+		source =
+				let Origen = Conex, #"DA002_2026-1 xlsx_https://educorpperu sharepoint com/sites/OPERACIONESACADMICAS_izhusr/Documentos compartidos/Reportes/Reporte DA002/" = Origen{[Name="DA002_2026-1.xlsx",#"Folder Path"="https://educorpperu.sharepoint.com/sites/OPERACIONESACADMICAS_izhusr/Documentos compartidos/Reportes/Reporte DA002/"]}[Content], #"Libro de Excel importado" = Excel.Workbook(#"DA002_2026-1 xlsx_https://educorpperu sharepoint com/sites/OPERACIONESACADMICAS_izhusr/Documentos compartidos/Reportes/Reporte DA002/"), Tabla1_Table = #"Libro de Excel importado"{[Item="Tabla1",Kind="Table"]}[Data], #"Consultas combinadas" = Table.NestedJoin(Tabla1_Table, {"CAMPUS"}, Sede, {"Sede"}, "Sede", JoinKind.LeftOuter), #"Se expandió Sede" = Table.ExpandTableColumn(#"Consultas combinadas", "Sede", {"ID SEDE"}, {"ID SEDE"}), #"Consultas combinadas1" = Table.NestedJoin(#"Se expandió Sede", {"ID DOCENTE"}, RUD, {"CODIGO BANNER"}, "RUD", JoinKind.LeftOuter)
+				in
+				    #"Consultas combinadas1"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

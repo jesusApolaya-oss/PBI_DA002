@@ -1,0 +1,68 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "e97a3f668007e74d943b",
+  "position": {
+    "x": 638.99999999999989,
+    "y": 117.14285714285715,
+    "z": 3000,
+    "height": 57.89399293286219,
+    "width": 238.81272084805653,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DA002_2025-2"
+                    }
+                  },
+                  "Property": "NOMBRE CURSO"
+                }
+              },
+              "queryRef": "DA002.NOMBRE CURSO",
+              "nativeQueryRef": "CURSO",
+              "active": true,
+              "displayName": "CURSO"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "selfFilterEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

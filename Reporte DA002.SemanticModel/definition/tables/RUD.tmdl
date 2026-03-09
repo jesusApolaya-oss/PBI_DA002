@@ -1,0 +1,493 @@
+table RUD
+	lineageTag: dc3bbc3b-b6b4-44cf-97cc-301e47d3f878
+
+	column 'PROGRAMA DE DICTADO'
+		dataType: string
+		lineageTag: 3171bbdd-29eb-4c4d-a65b-73df8b35627a
+		summarizeBy: none
+		sourceColumn: PROGRAMA DE DICTADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2026-0
+		dataType: string
+		lineageTag: db0abe21-99a3-499d-919b-4e75d9e89d2c
+		summarizeBy: none
+		sourceColumn: 2026-0
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2026-1
+		dataType: string
+		lineageTag: ab2b7200-ca83-487c-bc25-a09aa54509be
+		summarizeBy: none
+		sourceColumn: 2026-1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CODIGO COLABORADOR'
+		dataType: string
+		lineageTag: 4eb64739-eac4-44ce-b8a5-86fbb1734dbc
+		summarizeBy: none
+		sourceColumn: CODIGO COLABORADOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column DNI
+		dataType: string
+		lineageTag: 4e1a8a61-77d9-45bc-b3b8-6ade8a89a20c
+		summarizeBy: none
+		sourceColumn: DNI
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CODIGO BANNER'
+		dataType: string
+		lineageTag: 8a3b9644-2ca6-4776-9d01-8ce068ad05a0
+		summarizeBy: none
+		sourceColumn: CODIGO BANNER
+
+		annotation SummarizationSetBy = Automatic
+
+	column Docente
+		dataType: string
+		lineageTag: 457e435e-4b67-4212-af4d-9c3f8279fe71
+		summarizeBy: none
+		sourceColumn: Docente
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Rol 2026-1'
+		dataType: string
+		lineageTag: 45a2611a-0042-4fc8-873e-ac9802d33f1a
+		summarizeBy: none
+		sourceColumn: Rol 2026-1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HORAS 26-0'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7da16eed-d545-46b5-84e9-591ba11f57b0
+		summarizeBy: sum
+		sourceColumn: HORAS 26-0
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HORAS 26-1 M1+P'
+		dataType: int64
+		formatString: 0
+		lineageTag: a3441042-9cef-473d-b8cf-1ad79d199aaf
+		summarizeBy: sum
+		sourceColumn: HORAS 26-1 M1+P
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HORAS 26-1 M2+P'
+		dataType: int64
+		formatString: 0
+		lineageTag: ab1027f0-08a7-43c3-a8e2-9fca41782ee1
+		summarizeBy: sum
+		sourceColumn: HORAS 26-1 M2+P
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALERTA
+		dataType: string
+		lineageTag: 12b7a2cf-b566-4522-89cd-a75b30eb5352
+		summarizeBy: none
+		sourceColumn: ALERTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Correo docente'
+		dataType: string
+		lineageTag: a2eb8684-9fae-4fff-8cb4-0d983ca8a37b
+		summarizeBy: none
+		sourceColumn: Correo docente
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SEDE DICTADO'
+		dataType: string
+		lineageTag: 1755114f-2ac7-48b8-bbc0-5d18d81bba1f
+		summarizeBy: none
+		sourceColumn: SEDE DICTADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FACULTAD
+		dataType: string
+		lineageTag: cd084b4d-a860-4357-8d0d-b2b52976723d
+		summarizeBy: none
+		sourceColumn: FACULTAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column CARRERA
+		dataType: string
+		lineageTag: 35985eee-ab64-477d-8119-941ef41965c3
+		summarizeBy: none
+		sourceColumn: CARRERA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Responsable de Programación'
+		dataType: string
+		lineageTag: 7af75b45-bc92-4a94-b01e-a3d1fbab15eb
+		summarizeBy: none
+		sourceColumn: Responsable de Programación
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FECHA DE INGRESO ACTUAL'
+		dataType: string
+		lineageTag: f27cb7cd-b8c6-44bf-b742-8137e7725f6c
+		summarizeBy: none
+		sourceColumn: FECHA DE INGRESO ACTUAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUEVO/ANTIGUO
+		dataType: string
+		lineageTag: b011a00a-60a2-4825-93fe-2bb998e0cbab
+		summarizeBy: none
+		sourceColumn: NUEVO/ANTIGUO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Regimen Dictado'
+		dataType: string
+		lineageTag: 88bc27e9-3465-4c06-92d6-90e0af95160c
+		summarizeBy: none
+		sourceColumn: Regimen Dictado
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SEDE DE CONTRATO'
+		dataType: string
+		lineageTag: db58375c-136d-4369-ae3a-9de171961b25
+		summarizeBy: none
+		sourceColumn: SEDE DE CONTRATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PLANILLA
+		dataType: string
+		lineageTag: 51ca4955-6ad8-488f-b4c1-bc3d67ee905c
+		summarizeBy: none
+		sourceColumn: PLANILLA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TIPO DE CONTRATO'
+		dataType: string
+		lineageTag: e30289da-4441-4523-bf88-03bc685873a9
+		summarizeBy: none
+		sourceColumn: TIPO DE CONTRATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CARGO
+		dataType: string
+		lineageTag: 81090057-1461-4118-aebe-e1e56397ee26
+		summarizeBy: none
+		sourceColumn: CARGO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Categoria Docente'
+		dataType: string
+		lineageTag: 27cfcb73-e104-419a-97f0-d62d9ff6e7b7
+		summarizeBy: none
+		sourceColumn: Categoria Docente
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'JEFE INMEDIATO'
+		dataType: string
+		lineageTag: aa1f1586-68fc-44f0-8b2f-67a4cf485555
+		summarizeBy: none
+		sourceColumn: JEFE INMEDIATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Correo Jefe Inmediato'
+		dataType: string
+		lineageTag: 68b01518-fb6a-4659-8d2c-4454914617c0
+		summarizeBy: none
+		sourceColumn: Correo Jefe Inmediato
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Correo Corporativo docente'
+		dataType: string
+		lineageTag: e1da3930-7a47-445b-a65f-db3578587c8c
+		summarizeBy: none
+		sourceColumn: Correo Corporativo docente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Celular
+		dataType: string
+		lineageTag: a126c613-be0e-4696-9524-373d1d112e1a
+		summarizeBy: none
+		sourceColumn: Celular
+
+		annotation SummarizationSetBy = Automatic
+
+	column Arquetipo
+		dataType: string
+		lineageTag: 80c1f8b0-c269-4c20-89da-729a20a7c257
+		summarizeBy: none
+		sourceColumn: Arquetipo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Presencial
+		dataType: string
+		lineageTag: 385cb4b4-816b-4e66-93e3-c4929fe92ad0
+		summarizeBy: none
+		sourceColumn: Presencial
+
+		annotation SummarizationSetBy = Automatic
+
+	column Remoto
+		dataType: string
+		lineageTag: 99df3b31-d1d7-47a9-b6de-e93245f97eef
+		summarizeBy: none
+		sourceColumn: Remoto
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tesis
+		dataType: string
+		lineageTag: 7222c2fb-0f4d-4bac-8257-d014e0a8a606
+		summarizeBy: none
+		sourceColumn: Tesis
+
+		annotation SummarizationSetBy = Automatic
+
+	column Virtual
+		dataType: string
+		lineageTag: 8895e5e3-a55f-44ec-b412-7c9374dbbb5d
+		summarizeBy: none
+		sourceColumn: Virtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column Híbrido
+		dataType: string
+		lineageTag: 624b8ba9-c7ca-4c70-8849-6c322210b4ea
+		summarizeBy: none
+		sourceColumn: Híbrido
+
+		annotation SummarizationSetBy = Automatic
+
+	column Minimo
+		dataType: string
+		lineageTag: f5b316d1-30a6-48c8-990b-bf3478d12fcb
+		summarizeBy: none
+		sourceColumn: Minimo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Máximo
+		dataType: string
+		lineageTag: 78b9a61d-21ce-4d6c-b138-fb5ec2f32695
+		summarizeBy: none
+		sourceColumn: Máximo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HORAS CRONO M1'
+		dataType: string
+		lineageTag: 810408eb-625b-4b2c-9803-85552acfdf38
+		summarizeBy: none
+		sourceColumn: HORAS CRONO M1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HORAS CRONO M2'
+		dataType: string
+		lineageTag: 6ebd3349-1b75-41bc-ac89-2e3432c3baac
+		summarizeBy: none
+		sourceColumn: HORAS CRONO M2
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HORAS REQUERIDAS REGÚN ROL'
+		dataType: string
+		lineageTag: 2c2ad03d-8ade-4c77-9ffc-1e9bfad60c08
+		summarizeBy: none
+		sourceColumn: HORAS REQUERIDAS REGÚN ROL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HORAS SIN ADICIONALES M1'
+		dataType: string
+		lineageTag: b0d7c5ca-a29a-47b5-9ec1-083b1be2df1a
+		summarizeBy: none
+		sourceColumn: HORAS SIN ADICIONALES M1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HORAS SIN ADICIONALES M2'
+		dataType: string
+		lineageTag: a2808578-9787-4971-a213-cce9ee9a5047
+		summarizeBy: none
+		sourceColumn: HORAS SIN ADICIONALES M2
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'VB DOA'
+		dataType: string
+		lineageTag: 253f214e-7dce-4af6-9df1-ace62bfcefd7
+		summarizeBy: none
+		sourceColumn: VB DOA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CATEGORIA RENACYT-FILIACIÓN UPN'
+		dataType: string
+		lineageTag: 49723661-8a67-4f08-9726-3f873c9ce141
+		summarizeBy: none
+		sourceColumn: CATEGORIA RENACYT-FILIACIÓN UPN
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mayor Grado'
+		dataType: string
+		lineageTag: cbfb0e17-1fb9-45fc-9210-85c3cf6001bf
+		summarizeBy: none
+		sourceColumn: Mayor Grado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Genero
+		dataType: string
+		lineageTag: af02e585-6f06-4f7c-b663-433a5a64b84b
+		summarizeBy: none
+		sourceColumn: Genero
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nacimiento
+		dataType: string
+		lineageTag: f1959a5b-5df3-4e67-8368-79eef86bd14c
+		summarizeBy: none
+		sourceColumn: Nacimiento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Permanencia
+		dataType: string
+		lineageTag: f2ab78f2-7b4e-4778-98bf-85de94951bd1
+		summarizeBy: none
+		sourceColumn: Permanencia
+
+		annotation SummarizationSetBy = Automatic
+
+	column EQUIPO
+		dataType: string
+		lineageTag: 724ebc68-e82a-4770-903f-9d179510a5f8
+		summarizeBy: none
+		sourceColumn: EQUIPO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TIPO ROL AGRUPADO'
+		dataType: string
+		lineageTag: bfe18e28-0baa-4e65-a2ed-207b21dc87a7
+		summarizeBy: none
+		sourceColumn: TIPO ROL AGRUPADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ASESOR DE TESIS'
+		dataType: string
+		lineageTag: 58c51cb0-3a6f-4747-9f4a-0b5ab2dfa095
+		summarizeBy: none
+		sourceColumn: ASESOR DE TESIS
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMENTARIOS
+		dataType: string
+		lineageTag: 56d42e14-85c6-4ead-b2d7-fd0cb462cabe
+		summarizeBy: none
+		sourceColumn: COMENTARIOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column DETALLE
+		dataType: string
+		lineageTag: ae949b72-e264-4492-a76f-7eda815b95f8
+		summarizeBy: none
+		sourceColumn: DETALLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Promedio Horas 2026-1 M1+P' = ```
+			
+			AVERAGE(RUD[HORAS 26-1 M1+P])
+			
+			```
+		lineageTag: 899cbd03-9e48-4620-b3aa-f15f171ee1f9
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Promedio Horas 2026-1 M2+P' = ```
+			
+			AVERAGE(RUD[HORAS 26-1 M2+P])
+			
+			```
+		lineageTag: c7dc9399-aa37-4f44-9e26-ab96c54f7f19
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Promedio REAL' = ```
+			
+			DIVIDE(
+			    RUD[Promedio Horas 2026-1 M2+P] + 
+			    RUD[Promedio Horas 2026-1 M1+P],
+			    2
+			)
+			
+			```
+		lineageTag: 6e751db1-8810-4064-aa22-8688109c440b
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DETALLE_1
+		dataType: string
+		lineageTag: adf0c89b-327b-4618-8612-cb3f4be69abd
+		summarizeBy: none
+		sourceColumn: DETALLE_1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition RUD = m
+		mode: import
+		source =
+				let
+				    Origen = Conex,
+				    #"Reporte Único Docente - 2026 xlsx_https://educorpperu sharepoint com/sites/OPERACIONESACADMICAS_izhusr/Documentos compartidos/Reportes/Reporte DA002/" = Origen{[Name="Reporte Único Docente - 2026.xlsx",#"Folder Path"="https://educorpperu.sharepoint.com/sites/OPERACIONESACADMICAS_izhusr/Documentos compartidos/Reportes/Reporte DA002/"]}[Content],
+				    #"Libro de Excel importado" = Excel.Workbook(#"Reporte Único Docente - 2026 xlsx_https://educorpperu sharepoint com/sites/OPERACIONESACADMICAS_izhusr/Documentos compartidos/Reportes/Reporte DA002/"),
+				    #"Docentes Activos _Sheet" = #"Libro de Excel importado"{[Item="Docentes Activos ",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(#"Docentes Activos _Sheet", [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"HORAS 26-0", Int64.Type}, {"HORAS 26-1 M1+P", Int64.Type}, {"HORAS 26-1 M2+P", Int64.Type}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,28 @@
+model Model
+	culture: es-MX
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-PE
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+/// Errores en las consultas cargadas en 19/02/2026 16:21:46.
+queryGroup 'Errores en las consultas: 19/02/2026 16:21:46'
+
+	annotation PBI_QueryGroupOrder = 0
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Sede","Conex","2026-1","RUD","Errores en 2026-1"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Sede
+ref table 2026-1
+ref table Medidas
+ref table RUD
+ref table Dim_Bloques_Sede
+ref table Medida
+
+ref cultureInfo es-MX
+

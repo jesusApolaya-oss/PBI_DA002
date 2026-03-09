@@ -1,0 +1,34 @@
+expression Conex =
+		let
+		    Origen = SharePoint.Files("https://educorpperu.sharepoint.com/sites/OPERACIONESACADMICAS_izhusr/", [ApiVersion = 15])
+		in
+		    Origen
+	lineageTag: 989ca728-d58b-41b3-9e93-fadc357def5f
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Errores en 2026-1' =
+		let
+		Origen = #"2026-1",
+		  #"Errores de coincidencia detectados" = let
+		    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Origen, Table.ColumnsOfType(Origen, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),
+		    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),
+		    fieldNames = Record.FieldNames(recordTypeFields),
+		    fieldTypes = List.Transform(Record.ToList(recordTypeFields), each [Type]),
+		    pairs = List.Transform(List.Positions(fieldNames), (i) => {fieldNames{i}, (v) => if v = null or Value.Is(v, fieldTypes{i}) then v else error [Message = "El tipo del valor no coincide con el tipo de la columna.", Detail = v], fieldTypes{i}})
+		in
+		    Table.TransformColumns(Origen, pairs),
+		  #"Índice agregado" = Table.AddIndexColumn(#"Errores de coincidencia detectados", "Número de fila" ,1),
+		  #"Conservar errores" = Table.SelectRowsWithErrors(#"Índice agregado", {"PERIODO", "CAMPUS", "FACULTAD", "COD. DUEÑO CURSO", "DUEÑO CURSO", "COD. CURSO", "NOMBRE CURSO", "HRS PLAN CURSO", "NRC", "SECCION", "ESTATUS", "LST CRZ", "ORIGEN LST CRZ", "SOBREPASO AULA", "TIP HOR", "MET EDU", "PROYECTADO BOLSON", "MAXIMO", "REAL", "RESTANTE", "Hrs CREDITO", "ID DOCENTE", "ID RRHH", "DOCENTE", "ID PRINC", "TIPO JORNADA", "ESTADO DOCENTE", "MOTIVO", "SOCIO DE INTEGRACIÓN", "FECHA INICIO", "FECHA FIN", "DIA", "HORA", "TURNO", "EDIFICIO", "AULA", "TIPO AMBIENTE", "IN/EX PROGRAMA", "COD. PROGRAMAS COMPARTIDOS", "PROGRAMAS COMPARTIDOS", "IN/EX CAMPUS", "CAMPUS_1", "TIPO REQUISITO", "REQUISITOS", "BLOQUES HORARIOS", "IN/EX ATRIBUTO", "ATRIBUTOS", "IN/EX COHORTE", "COHORTES", "ATRIBUTOS BOLSON", "ATRIBUTOS BOLSON2", "MET EDU2", "PROYECTADO BOLSON3", "MAXIMO4", "REAL5", "RESTANTE6", "Hrs CREDITO7", "ID DOCENTE8", "ID RRHH9", "DOCENTE10", "ID PRINC11", "TIPO JORNADA12", "ESTADO DOCENTE13", "MOTIVO14", "SOCIO DE INTEGRACIÓN15", "FECHA INICIO16", "FECHA FIN17", "DIA18", "HORA19", "TURNO20", "EDIFICIO21", "AULA22", "TIPO AMBIENTE23", "IN/EX PROGRAMA24", "COD. PROGRAMAS COMPARTIDOS25", "PROGRAMAS COMPARTIDOS26", "IN/EX CAMPUS27", "CAMPUS_128", "TIPO REQUISITO29", "REQUISITOS30", "BLOQUES HORARIOS31", "IN/EX ATRIBUTO32", "ATRIBUTOS33", "IN/EX COHORTE34", "COHORTES35", "ATRIBUTOS BOLSON36", "ID SEDE", "RUD.ID RUD"}),
+		  #"Columnas reordenadas" = Table.ReorderColumns(#"Conservar errores", {"Número de fila", "PERIODO", "CAMPUS", "FACULTAD", "COD. DUEÑO CURSO", "DUEÑO CURSO", "COD. CURSO", "NOMBRE CURSO", "HRS PLAN CURSO", "NRC", "SECCION", "ESTATUS", "LST CRZ", "ORIGEN LST CRZ", "SOBREPASO AULA", "TIP HOR", "MET EDU", "PROYECTADO BOLSON", "MAXIMO", "REAL", "RESTANTE", "Hrs CREDITO", "ID DOCENTE", "ID RRHH", "DOCENTE", "ID PRINC", "TIPO JORNADA", "ESTADO DOCENTE", "MOTIVO", "SOCIO DE INTEGRACIÓN", "FECHA INICIO", "FECHA FIN", "DIA", "HORA", "TURNO", "EDIFICIO", "AULA", "TIPO AMBIENTE", "IN/EX PROGRAMA", "COD. PROGRAMAS COMPARTIDOS", "PROGRAMAS COMPARTIDOS", "IN/EX CAMPUS", "CAMPUS_1", "TIPO REQUISITO", "REQUISITOS", "BLOQUES HORARIOS", "IN/EX ATRIBUTO", "ATRIBUTOS", "IN/EX COHORTE", "COHORTES", "ATRIBUTOS BOLSON", "ATRIBUTOS BOLSON2", "MET EDU2", "PROYECTADO BOLSON3", "MAXIMO4", "REAL5", "RESTANTE6", "Hrs CREDITO7", "ID DOCENTE8", "ID RRHH9", "DOCENTE10", "ID PRINC11", "TIPO JORNADA12", "ESTADO DOCENTE13", "MOTIVO14", "SOCIO DE INTEGRACIÓN15", "FECHA INICIO16", "FECHA FIN17", "DIA18", "HORA19", "TURNO20", "EDIFICIO21", "AULA22", "TIPO AMBIENTE23", "IN/EX PROGRAMA24", "COD. PROGRAMAS COMPARTIDOS25", "PROGRAMAS COMPARTIDOS26", "IN/EX CAMPUS27", "CAMPUS_128", "TIPO REQUISITO29", "REQUISITOS30", "BLOQUES HORARIOS31", "IN/EX ATRIBUTO32", "ATRIBUTOS33", "IN/EX COHORTE34", "COHORTES35", "ATRIBUTOS BOLSON36", "ID SEDE", "RUD.ID RUD"})
+		in
+		  #"Columnas reordenadas"
+	lineageTag: a446bb69-0d59-4c83-8ccf-8c0f350d2468
+	queryGroup: 'Errores en las consultas: 19/02/2026 16:21:46'
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

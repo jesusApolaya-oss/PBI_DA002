@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "750eeb45b8af00589ddc",
+  "position": {
+    "x": 1118.5714285714287,
+    "y": 50,
+    "z": 3000,
+    "height": 57.142857142857146,
+    "width": 135.71428571428572,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2026-1"
+                    }
+                  },
+                  "Property": "PERIODO"
+                }
+              },
+              "queryRef": "2026-1.PERIODO",
+              "nativeQueryRef": "PERIODO",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

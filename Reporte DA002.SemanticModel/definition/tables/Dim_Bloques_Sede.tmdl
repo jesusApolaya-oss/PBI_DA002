@@ -1,0 +1,56 @@
+table Dim_Bloques_Sede
+	lineageTag: 6d257272-c218-4d1a-836f-5c8fce362246
+
+	column 'BLOQUES HORARIOS'
+		lineageTag: 93093527-1da0-4509-a4d0-e44e6c08a50a
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [BLOQUES HORARIOS]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sede formato'
+		lineageTag: 161439e4-41ed-402c-92be-46f56e2969c1
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Sede formato]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Bloques_Sede = calculated
+		mode: import
+		source = ```
+				
+				DATATABLE(
+				    "BLOQUES HORARIOS", STRING,
+				    "Sede formato", STRING,
+				{
+				    {"LN0REMOTO","LN0"},
+				    {"TMLREMOTO","TML"},
+				    {"CAJREMOTO","CAJ"},
+				    {"TSIREMOTO","TSI"},
+				    {"LS0REMOTO","LS0"},
+				    {"LE0REMOTO","LE0"},
+				    {"LC0REMOTO","LC0"},
+				    {"LE1REMOTO","LE1"},
+				    {"LN1REMOTO","LN1"},
+				    {"CADREMOTO","CAD"},
+				
+				    {"LC0CMDWABL","LC0"},
+				    {"LN0CMDWABL","LC0"},
+				    {"LS0CMDWABL","LC0"},
+				
+				    {"CAJCIVWABL","CAJ"},
+				    {"LC0CIVWABL","LC0"},
+				    {"LE0CIVWABL","LE0"},
+				    {"LN0CIVWABL","LN0"},
+				    {"LS0CIVWABL","LS0"},
+				    {"TSICIVWABL","TSI"}
+				
+				}
+				)
+				
+				```
+
+	annotation PBI_Id = 9dbcb07024ed428db4ee742ae2bb4f9d
+

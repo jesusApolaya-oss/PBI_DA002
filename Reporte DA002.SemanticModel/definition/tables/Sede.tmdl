@@ -1,0 +1,58 @@
+table Sede
+	excludeFromModelRefresh
+	lineageTag: 212a753d-f5d4-4eb0-8e45-e0117607151d
+
+	column Sede
+		dataType: string
+		lineageTag: bee37469-c1de-411a-99f7-a1fab6502082
+		summarizeBy: none
+		sourceColumn: Sede
+
+		annotation SummarizationSetBy = Automatic
+
+	column formato
+		dataType: string
+		lineageTag: 75ab786c-65e4-45c1-9210-6de3ac5c3ea2
+		summarizeBy: none
+		sourceColumn: formato
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID SEDE'
+		dataType: int64
+		formatString: 0
+		lineageTag: acd3b29e-7549-49fe-83a7-0f358757d013
+		summarizeBy: none
+		sourceColumn: ID SEDE
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sede = m
+		mode: import
+		source =
+				let
+				    Origen = #table(
+				        {"Sede", "formato"},
+				        {
+				            {"LN0", "Los Olivos"},
+				            {"REM", "Remoto"},
+				            {"LC0", "Breña"},
+				            {"VIR", "VIR"},
+				            {"CAJ", "Cajamarca"},
+				            {"LE0", "SJL"},
+				            {"LS0", "Chorrillos"},
+				            {"TML", "Trujillo - Mol"},
+				            {"LE1", "Ate"},
+				            {"LN1", "Comas"},
+				            {"TSI", "Trujillo - SI"},
+				            {"CAD", "CAD"}
+				        }
+				    ),
+				    #"Índice agregado" = Table.AddIndexColumn(Origen, "ID SEDE", 1, 1, Int64.Type)
+				in
+				    #"Índice agregado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

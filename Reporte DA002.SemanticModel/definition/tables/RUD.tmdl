@@ -9,14 +9,6 @@ table RUD
 
 		annotation SummarizationSetBy = Automatic
 
-	column 2026-0
-		dataType: string
-		lineageTag: db0abe21-99a3-499d-919b-4e75d9e89d2c
-		summarizeBy: none
-		sourceColumn: 2026-0
-
-		annotation SummarizationSetBy = Automatic
-
 	column 2026-1
 		dataType: string
 		lineageTag: ab2b7200-ca83-487c-bc25-a09aa54509be
@@ -428,49 +420,19 @@ table RUD
 
 		annotation SummarizationSetBy = Automatic
 
-	column 'Promedio Horas 2026-1 M1+P' = ```
-			
-			AVERAGE(RUD[HORAS 26-1 M1+P])
-			
-			```
-		lineageTag: 899cbd03-9e48-4620-b3aa-f15f171ee1f9
-		summarizeBy: sum
-
-		annotation SummarizationSetBy = Automatic
-
-	column 'Promedio Horas 2026-1 M2+P' = ```
-			
-			AVERAGE(RUD[HORAS 26-1 M2+P])
-			
-			```
-		lineageTag: c7dc9399-aa37-4f44-9e26-ab96c54f7f19
-		summarizeBy: sum
-
-		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
-
-	column 'Promedio REAL' = ```
-			
-			DIVIDE(
-			    RUD[Promedio Horas 2026-1 M2+P] + 
-			    RUD[Promedio Horas 2026-1 M1+P],
-			    2
-			)
-			
-			```
-		lineageTag: 6e751db1-8810-4064-aa22-8688109c440b
-		summarizeBy: sum
-
-		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
-
-	column DETALLE_1
+	column COMENTARIOS_1
 		dataType: string
-		lineageTag: adf0c89b-327b-4618-8612-cb3f4be69abd
+		lineageTag: e3788ac8-b7db-40b7-b394-b7d08d8f882d
 		summarizeBy: none
-		sourceColumn: DETALLE_1
+		sourceColumn: COMENTARIOS_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column DETALLE_2
+		dataType: string
+		lineageTag: c4f48f3e-a3ae-442b-8b5c-69c0410d4d5c
+		summarizeBy: none
+		sourceColumn: DETALLE_2
 
 		annotation SummarizationSetBy = Automatic
 

@@ -952,15 +952,8 @@ cultureInfo es-MX
 			          "fecha inicio": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "date": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
 			        }
-			      ],
-			      "SemanticType": "Time"
+			      ]
 			    },
 			    "entity_20261.fecha_fin": {
 			      "Definition": {
@@ -2853,44 +2846,6 @@ cultureInfo es-MX
 			        }
 			      ]
 			    },
-			    "medida.cursos_sin_docente_sin_duplicados": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "Medidas",
-			          "ConceptualProperty": "Cursos Sin Docente (Sin Duplicados)"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "cursos sin docente (sin duplicados)": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "cursos sin docente": {
-			            "State": "Generated",
-			            "Weight": 0.75
-			          }
-			        }
-			      ]
-			    },
-			    "medida.medida": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "Medidas",
-			          "ConceptualProperty": "Medida"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "medida": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
 			    "entity_20261.NRC_final": {
 			      "Definition": {
 			        "Binding": {
@@ -3081,22 +3036,6 @@ cultureInfo es-MX
 			      "Terms": [
 			        {
 			          "programa de dictado": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
-			    "rud.entity_20260": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "RUD",
-			          "ConceptualProperty": "2026-0"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "2026-0": {
 			            "State": "Generated"
 			          }
 			        }
@@ -4283,115 +4222,17 @@ cultureInfo es-MX
 			        }
 			      ]
 			    },
-			    "entity_20261.fecha_inicio.jerarquía_de_fecha": {
+			    "medida.promedio_REAL": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "2026-1",
-			          "VariationSource": "FECHA INICIO",
-			          "VariationSet": "Variación",
-			          "Hierarchy": "Jerarquía de fechas"
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Promedio REAL"
 			        }
 			      },
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "jerarquía de fecha": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
-			    "entity_20261.fecha_inicio.año": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "2026-1",
-			          "VariationSource": "FECHA INICIO",
-			          "VariationSet": "Variación",
-			          "Hierarchy": "Jerarquía de fechas",
-			          "HierarchyLevel": "Año"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "año": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "fecha inicio año": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
-			    "entity_20261.fecha_inicio.trimestre": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "2026-1",
-			          "VariationSource": "FECHA INICIO",
-			          "VariationSet": "Variación",
-			          "Hierarchy": "Jerarquía de fechas",
-			          "HierarchyLevel": "Trimestre"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "trimestre": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "fecha inicio trimestre": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
-			    "entity_20261.fecha_inicio.me": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "2026-1",
-			          "VariationSource": "FECHA INICIO",
-			          "VariationSet": "Variación",
-			          "Hierarchy": "Jerarquía de fechas",
-			          "HierarchyLevel": "Mes"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "me": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "fecha inicio me": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
-			    "entity_20261.fecha_inicio.día": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "2026-1",
-			          "VariationSource": "FECHA INICIO",
-			          "VariationSet": "Variación",
-			          "Hierarchy": "Jerarquía de fechas",
-			          "HierarchyLevel": "Día"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "día": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "fecha inicio día": {
+			          "promedio REAL": {
 			            "State": "Generated"
 			          }
 			        }
@@ -4493,395 +4334,575 @@ cultureInfo es-MX
 			          }
 			        }
 			      ]
+			    },
+			    "medida.promedio_horas_20261_M2p": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Promedio Horas 2026-1 M2+P"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio horas 2026-1 M2+p": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "promedio horas 2026 1 M2+p": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "medida.promedio_horas_20261_M1p": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Promedio Horas 2026-1 M1+P"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio horas 2026-1 M1+p": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "promedio horas 2026 1 M1+p": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "medida1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.column1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "medida.colaboradores_programados_si": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Colaboradores Programados Si"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "colaboradores programados si": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Sí": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_colaboradores": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Total Colaboradores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total colaboradores": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate colaboradore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall colaboradore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Total": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.colaboradores_programados_no": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Colaboradores Programados No"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "colaboradores programados no": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "colaboradore programado number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "No": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.docentes_programados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "% Docentes Programados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% docentes programados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage docente programado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct docente programado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "% Avance": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "da002_20252.nombre_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DA002_2025-2",
+			          "ConceptualProperty": "NOMBRE CURSO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CURSO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "da002_20252.dueño_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DA002_2025-2",
+			          "ConceptualProperty": "DUEÑO CURSO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CARRERA": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
-			    "entity_20261_fecha_inicio_trimestre_has_entity_20261_fecha_inicio_me": {
+			    "rud_has_medida_colaboradores_programados_no": {
 			      "Binding": {
-			        "ConceptualEntity": "2026-1"
+			        "ConceptualEntity": "RUD"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "entity_20261.fecha_inicio.trimestre": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.trimestre"
-			          }
-			        },
-			        "entity_20261.fecha_inicio.me": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.me"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.trimestre"
-			            },
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.me"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trimestres_have_me"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.me"
-			            },
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "me_have_trimestres"
-			        },
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.me"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "me_are_in_trimestres"
-			        }
-			      ]
-			    },
-			    "entity_20261_fecha_inicio_año_has_entity_20261_fecha_inicio_trimestre": {
-			      "Binding": {
-			        "ConceptualEntity": "2026-1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "entity_20261.fecha_inicio.año": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.año"
-			          }
-			        },
-			        "entity_20261.fecha_inicio.trimestre": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.trimestre"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.año"
-			            },
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "años_have_trimestres"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.trimestre"
-			            },
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.año"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trimestres_have_años"
-			        },
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.trimestre"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.año"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trimestres_are_in_años"
-			        }
-			      ]
-			    },
-			    "entity_20261_fecha_inicio_jerarquía_de_fecha_has_entity_20261_fecha_inicio_día": {
-			      "Binding": {
-			        "ConceptualEntity": "2026-1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "entity_20261.fecha_inicio.jerarquía_de_fecha": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			          }
-			        },
-			        "entity_20261.fecha_inicio.día": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.día"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			            },
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.día"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "jerarquía_de_fechas_have_días"
-			        }
-			      ]
-			    },
-			    "entity_20261_fecha_inicio_jerarquía_de_fecha_has_entity_20261_fecha_inicio_me": {
-			      "Binding": {
-			        "ConceptualEntity": "2026-1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "entity_20261.fecha_inicio.jerarquía_de_fecha": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			          }
-			        },
-			        "entity_20261.fecha_inicio.me": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.me"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			            },
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.me"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "jerarquía_de_fechas_have_me"
-			        }
-			      ]
-			    },
-			    "entity_20261_fecha_inicio_jerarquía_de_fecha_has_entity_20261_fecha_inicio_trimestre": {
-			      "Binding": {
-			        "ConceptualEntity": "2026-1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "entity_20261.fecha_inicio.jerarquía_de_fecha": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			          }
-			        },
-			        "entity_20261.fecha_inicio.trimestre": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.trimestre"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			            },
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "jerarquía_de_fechas_have_trimestres"
-			        }
-			      ]
-			    },
-			    "entity_20261_fecha_inicio_jerarquía_de_fecha_has_entity_20261_fecha_inicio_año": {
-			      "Binding": {
-			        "ConceptualEntity": "2026-1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "entity_20261.fecha_inicio.jerarquía_de_fecha": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			          }
-			        },
-			        "entity_20261.fecha_inicio.año": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.año"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			            },
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.año"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "jerarquía_de_fechas_have_años"
-			        }
-			      ]
-			    },
-			    "entity_20261_fecha_inicio_has_jerarquía_de_fecha": {
-			      "Binding": {
-			        "ConceptualEntity": "2026-1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "entity_20261.fecha_inicio": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio"
-			          }
-			        },
-			        "entity_20261.fecha_inicio.jerarquía_de_fecha": {
-			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio"
-			            },
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.jerarquía_de_fecha"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "fecha_inicios_have_jerarquía_de_fechas"
-			        }
-			      ]
-			    },
-			    "entity_20261_has_sede": {
-			      "Binding": {
-			        "ConceptualEntity": "2026-1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "entity_20261": {
-			          "Target": {
-			            "Entity": "entity_20261"
-			          }
-			        },
-			        "sede": {
-			          "Target": {
-			            "Entity": "sede"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "entity_20261"
-			            },
-			            "Object": {
-			              "Role": "sede"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "Phrasing20261_have_sedes"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "sede"
-			            },
-			            "Object": {
-			              "Role": "entity_20261"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "sedes_have_20261"
-			        }
-			      ]
-			    },
-			    "entity_20261_has_rud": {
-			      "Binding": {
-			        "ConceptualEntity": "2026-1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "entity_20261": {
-			          "Target": {
-			            "Entity": "entity_20261"
-			          }
-			        },
 			        "rud": {
 			          "Target": {
 			            "Entity": "rud"
 			          }
+			        },
+			        "medida.colaboradores_programados_no": {
+			          "Target": {
+			            "Entity": "medida.colaboradores_programados_no"
+			          }
 			        }
 			      },
 			      "Phrasings": [
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "entity_20261"
+			              "Role": "rud"
 			            },
 			            "Object": {
-			              "Role": "rud"
+			              "Role": "medida.colaboradores_programados_no"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "Phrasing20261_have_ruds"
+			          "ID": "ruds_have_colaboradores_programados_no"
+			        }
+			      ]
+			    },
+			    "rud_has_medida_total_colaboradores": {
+			      "Binding": {
+			        "ConceptualEntity": "RUD"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rud": {
+			          "Target": {
+			            "Entity": "rud"
+			          }
 			        },
+			        "medida.total_colaboradores": {
+			          "Target": {
+			            "Entity": "medida.total_colaboradores"
+			          }
+			        }
+			      },
+			      "Phrasings": [
 			        {
 			          "Attribute": {
 			            "Subject": {
 			              "Role": "rud"
 			            },
 			            "Object": {
-			              "Role": "entity_20261"
+			              "Role": "medida.total_colaboradores"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "ruds_have_20261"
+			          "ID": "ruds_have_total_colaboradores"
+			        }
+			      ]
+			    },
+			    "rud_has_medida_colaboradores_programados_si": {
+			      "Binding": {
+			        "ConceptualEntity": "RUD"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rud": {
+			          "Target": {
+			            "Entity": "rud"
+			          }
+			        },
+			        "medida.colaboradores_programados_si": {
+			          "Target": {
+			            "Entity": "medida.colaboradores_programados_si"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rud"
+			            },
+			            "Object": {
+			              "Role": "medida.colaboradores_programados_si"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ruds_have_colaboradores_programados_si"
+			        }
+			      ]
+			    },
+			    "medida1_has_medida_column1": {
+			      "Binding": {
+			        "ConceptualEntity": "Medida"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida1": {
+			          "Target": {
+			            "Entity": "medida1"
+			          }
+			        },
+			        "medida.column1": {
+			          "Target": {
+			            "Entity": "medida.column1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida1"
+			            },
+			            "Object": {
+			              "Role": "medida.column1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_columns"
+			        }
+			      ]
+			    },
+			    "rud_has_medida_promedio_horas_20261_M1p": {
+			      "Binding": {
+			        "ConceptualEntity": "RUD"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rud": {
+			          "Target": {
+			            "Entity": "rud"
+			          }
+			        },
+			        "medida.promedio_horas_20261_M1p": {
+			          "Target": {
+			            "Entity": "medida.promedio_horas_20261_M1p"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rud"
+			            },
+			            "Object": {
+			              "Role": "medida.promedio_horas_20261_M1p"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ruds_have_promedio_horas_20261_M1p"
+			        }
+			      ]
+			    },
+			    "rud_has_medida_promedio_horas_20261_M2p": {
+			      "Binding": {
+			        "ConceptualEntity": "RUD"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rud": {
+			          "Target": {
+			            "Entity": "rud"
+			          }
+			        },
+			        "medida.promedio_horas_20261_M2p": {
+			          "Target": {
+			            "Entity": "medida.promedio_horas_20261_M2p"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rud"
+			            },
+			            "Object": {
+			              "Role": "medida.promedio_horas_20261_M2p"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ruds_have_promedio_horas_20261_M2p"
 			        }
 			      ]
 			    },
@@ -4951,7 +4972,7 @@ cultureInfo es-MX
 			        }
 			      ]
 			    },
-			    "rud_has_id_rud": {
+			    "rud_has_medida_promedio_REAL": {
 			      "Binding": {
 			        "ConceptualEntity": "RUD"
 			      },
@@ -4962,9 +4983,9 @@ cultureInfo es-MX
 			            "Entity": "rud"
 			          }
 			        },
-			        "rud.id_rud": {
+			        "medida.promedio_REAL": {
 			          "Target": {
-			            "Entity": "rud.id_rud"
+			            "Entity": "medida.promedio_REAL"
 			          }
 			        }
 			      },
@@ -4975,12 +4996,144 @@ cultureInfo es-MX
 			              "Role": "rud"
 			            },
 			            "Object": {
-			              "Role": "rud.id_rud"
+			              "Role": "medida.promedio_REAL"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "ruds_have_id_ruds"
+			          "ID": "ruds_have_promedio_REAL"
+			        }
+			      ]
+			    },
+			    "rud_has_promedio_horas_20261_M1p": {
+			      "Binding": {
+			        "ConceptualEntity": "RUD"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rud": {
+			          "Target": {
+			            "Entity": "rud"
+			          }
+			        },
+			        "rud.promedio_horas_20261_M1p": {
+			          "Target": {
+			            "Entity": "rud.promedio_horas_20261_M1p"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rud"
+			            },
+			            "Object": {
+			              "Role": "rud.promedio_horas_20261_M1p"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ruds_have_promedio_horas_20261_M1p1"
+			        }
+			      ]
+			    },
+			    "rud_has_promedio_horas_20261_M2p": {
+			      "Binding": {
+			        "ConceptualEntity": "RUD"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rud": {
+			          "Target": {
+			            "Entity": "rud"
+			          }
+			        },
+			        "rud.promedio_horas_20261_M2p": {
+			          "Target": {
+			            "Entity": "rud.promedio_horas_20261_M2p"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rud"
+			            },
+			            "Object": {
+			              "Role": "rud.promedio_horas_20261_M2p"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ruds_have_promedio_horas_20261_M2p1"
+			        }
+			      ]
+			    },
+			    "rud_has_promedio_REAL": {
+			      "Binding": {
+			        "ConceptualEntity": "RUD"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rud": {
+			          "Target": {
+			            "Entity": "rud"
+			          }
+			        },
+			        "rud.promedio_REAL": {
+			          "Target": {
+			            "Entity": "rud.promedio_REAL"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rud"
+			            },
+			            "Object": {
+			              "Role": "rud.promedio_REAL"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ruds_have_promedio_REALs"
+			        }
+			      ]
+			    },
+			    "rud_has_detalle_1": {
+			      "Binding": {
+			        "ConceptualEntity": "RUD"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rud": {
+			          "Target": {
+			            "Entity": "rud"
+			          }
+			        },
+			        "rud.detalle_1": {
+			          "Target": {
+			            "Entity": "rud.detalle_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rud"
+			            },
+			            "Object": {
+			              "Role": "rud.detalle_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ruds_have_detalle_1"
 			        }
 			      ]
 			    },
@@ -5179,39 +5332,6 @@ cultureInfo es-MX
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "ruds_have_permanencias"
-			        }
-			      ]
-			    },
-			    "rud_has_generación": {
-			      "Binding": {
-			        "ConceptualEntity": "RUD"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "rud": {
-			          "Target": {
-			            "Entity": "rud"
-			          }
-			        },
-			        "rud.generación": {
-			          "Target": {
-			            "Entity": "rud.generación"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "rud"
-			            },
-			            "Object": {
-			              "Role": "rud.generación"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "ruds_have_generacións"
 			        }
 			      ]
 			    },
@@ -6238,39 +6358,6 @@ cultureInfo es-MX
 			        }
 			      ]
 			    },
-			    "rud_has_facultad_1": {
-			      "Binding": {
-			        "ConceptualEntity": "RUD"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "rud": {
-			          "Target": {
-			            "Entity": "rud"
-			          }
-			        },
-			        "rud.facultad_1": {
-			          "Target": {
-			            "Entity": "rud.facultad_1"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "rud"
-			            },
-			            "Object": {
-			              "Role": "rud.facultad_1"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "ruds_have_facultad_1"
-			        }
-			      ]
-			    },
 			    "rud_has_carrera": {
 			      "Binding": {
 			        "ConceptualEntity": "RUD"
@@ -6729,7 +6816,7 @@ cultureInfo es-MX
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "ruds_have_202611"
+			          "ID": "ruds_have_20261"
 			        }
 			      ]
 			    },
@@ -6964,6 +7051,39 @@ cultureInfo es-MX
 			        }
 			      ]
 			    },
+			    "medida_has_Color_DIA_20251": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.Color_DIA_20251": {
+			          "Target": {
+			            "Entity": "medida.Color_DIA_20251"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.Color_DIA_20251"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_Color_DIA_20251"
+			        }
+			      ]
+			    },
 			    "entity_20261_has_medida_Color_DIA_20261": {
 			      "Binding": {
 			        "ConceptualEntity": "2026-1"
@@ -7026,7 +7146,7 @@ cultureInfo es-MX
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "medidas_have_columns"
+			          "ID": "medidas_have_columns1"
 			        }
 			      ]
 			    },
@@ -10124,20 +10244,20 @@ cultureInfo es-MX
 			        }
 			      ]
 			    },
-			    "entity_20261_fecha_inicio_me_has_entity_20261_fecha_inicio_día": {
+			    "rud_has_medida_docentes_programados": {
 			      "Binding": {
-			        "ConceptualEntity": "2026-1"
+			        "ConceptualEntity": "RUD"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "entity_20261.fecha_inicio.me": {
+			        "rud": {
 			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.me"
+			            "Entity": "rud"
 			          }
 			        },
-			        "entity_20261.fecha_inicio.día": {
+			        "medida.docentes_programados": {
 			          "Target": {
-			            "Entity": "entity_20261.fecha_inicio.día"
+			            "Entity": "medida.docentes_programados"
 			          }
 			        }
 			      },
@@ -10145,48 +10265,61 @@ cultureInfo es-MX
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.me"
+			              "Role": "rud"
 			            },
 			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.día"
+			              "Role": "medida.docentes_programados"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "me_have_días"
+			          "ID": "ruds_have__docentes_programados"
+			        }
+			      ]
+			    },
+			    "entity_20261_has_sede": {
+			      "Binding": {
+			        "ConceptualEntity": "2026-1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20261": {
+			          "Target": {
+			            "Entity": "entity_20261"
+			          }
+			        },
+			        "sede": {
+			          "Target": {
+			            "Entity": "sede"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20261"
+			            },
+			            "Object": {
+			              "Role": "sede"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20261_have_sedes"
 			        },
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.día"
+			              "Role": "sede"
 			            },
 			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.me"
+			              "Role": "entity_20261"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "días_have_me"
-			        },
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "entity_20261.fecha_inicio.día"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "entity_20261.fecha_inicio.me"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "días_are_in_me"
+			          "ID": "sedes_have_20261"
 			        }
 			      ]
 			    }

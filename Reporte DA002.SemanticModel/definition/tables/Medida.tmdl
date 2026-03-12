@@ -1,6 +1,42 @@
 table Medida
 	lineageTag: 551b0de6-77d1-4be8-9826-5683c6550bd4
 
+	measure 'Colaboradores Programados Si' =
+			
+			CALCULATE(
+			    [Total Colaboradores],
+			    'RUD'[2026-1] = "Sí"
+			)
+		formatString: 0
+		displayFolder: RUD
+		lineageTag: 4ea6e206-a7ec-45f0-96dd-7d041c1b22f4
+
+	measure 'Total Colaboradores' = DISTINCTCOUNT('RUD'[CODIGO COLABORADOR])
+		formatString: 0
+		displayFolder: RUD
+		lineageTag: f5ce23c9-6521-4454-b16a-18f7737462cf
+
+	measure 'Colaboradores Programados No' =
+			
+			CALCULATE(
+			    [Total Colaboradores],
+			    'RUD'[2026-1] = "No"
+			)
+		formatString: 0
+		displayFolder: RUD
+		lineageTag: 52dd07cb-efac-486c-8022-d54f69aca96e
+
+	measure '% Docentes Programados' =
+			
+			DIVIDE(
+			    [Colaboradores Programados Si],
+			    [Total Colaboradores],
+			    0
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		displayFolder: RUD
+		lineageTag: fb295b2a-3898-404b-9e94-edabff49e806
+
 	column Column
 		formatString: 0
 		lineageTag: 4a2bdeca-33ca-4954-bb0a-f83f81ae4d15

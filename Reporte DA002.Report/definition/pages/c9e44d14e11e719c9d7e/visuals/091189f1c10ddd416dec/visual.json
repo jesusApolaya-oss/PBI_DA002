@@ -4,10 +4,10 @@
   "position": {
     "x": 11.25,
     "y": 1156.25,
-    "z": 18000,
+    "z": 16000,
     "height": 63.75,
     "width": 1245,
-    "tabOrder": 18000
+    "tabOrder": 16000
   },
   "visual": {
     "visualType": "textbox",
@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "CONTROL DE PROGRAMACIÓN HORARIA AL 06.03.26",
+                    "value": "CONTROL DE PROGRAMACIÓN HORARIA AL 12.03.26",
                     "textStyle": {
                       "fontFamily": "Segoe UI Semibold",
                       "fontSize": "24pt"

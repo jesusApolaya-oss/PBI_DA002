@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "bbd154a2946cbcdda79e",
   "position": {
-    "x": 310,
-    "y": 1291.4285714285716,
-    "z": 14000,
-    "height": 250.00000000000003,
-    "width": 945.71428571428578,
-    "tabOrder": 14000
+    "x": 18.333333333333336,
+    "y": 1576.6666666666667,
+    "z": 13000,
+    "height": 250,
+    "width": 705,
+    "tabOrder": 13000
   },
   "visual": {
     "visualType": "pivotTable",
@@ -76,6 +76,53 @@
         }
       }
     },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "RUD.ALERTA"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "RUD"
+                    }
+                  },
+                  "Property": "ALERTA"
+                }
+              }
+            ],
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "241.00000351666262D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "RUD.ALERTA"
+          }
+        }
+      ]
+    },
     "visualContainerObjects": {
       "title": [
         {
@@ -107,6 +154,18 @@
                   "Value": "'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'"
                 }
               }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -117,7 +176,75 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "b0bc17f0cb598154dc08",
+        "name": "e9c777a174b19112cb65",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "RUD"
+              }
+            },
+            "Property": "ALERTA"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "r",
+              "Entity": "RUD",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "r"
+                          }
+                        },
+                        "Property": "ALERTA"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Completar horas en ambos modulos'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Completar horas Modulo 1'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Completar horas Modulo 2'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "isLockedInViewMode": true
+      },
+      {
+        "name": "11f053557ec5a076c50a",
         "field": {
           "Column": {
             "Expression": {
@@ -128,7 +255,7 @@
             "Property": "EQUIPO"
           }
         },
-        "type": "Categorical",
+        "type": "Advanced",
         "filter": {
           "Version": 2,
           "From": [
@@ -171,7 +298,7 @@
         "howCreated": "User"
       },
       {
-        "name": "c754eb71792eebf791a5",
+        "name": "c7245dc677a50d96db92",
         "field": {
           "Column": {
             "Expression": {
@@ -212,6 +339,13 @@
                     [
                       {
                         "Literal": {
+                          "Value": "null"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
                           "Value": "'DTC 30hr'"
                         }
                       }
@@ -236,10 +370,11 @@
             }
           ]
         },
-        "howCreated": "User"
+        "howCreated": "User",
+        "isLockedInViewMode": true
       },
       {
-        "name": "04fbda29d063329f5c59",
+        "name": "2d1ef547739180a35051",
         "field": {
           "Column": {
             "Expression": {
@@ -297,10 +432,11 @@
             }
           ]
         },
-        "howCreated": "User"
+        "howCreated": "User",
+        "isLockedInViewMode": true
       },
       {
-        "name": "e4a7cba70a10d6927d0e",
+        "name": "1eacbfb00cd40e83a789",
         "field": {
           "Column": {
             "Expression": {
@@ -354,7 +490,7 @@
         "howCreated": "User"
       },
       {
-        "name": "95ea2d37ea409313aaaf",
+        "name": "9ac6a6450802c3168a6a",
         "field": {
           "Column": {
             "Expression": {

@@ -33,26 +33,6 @@ table Medidas
 		displayFolder: Color
 		lineageTag: 1c0ad9c8-f69b-4af4-b0b4-9ca7304a86c1
 
-	measure 'Cursos Sin Docente (Sin Duplicados)' = ```
-			
-			CALCULATE(
-			    DISTINCTCOUNT('2026-1'[ID Programacion]),
-			    FILTER(
-			        '2026-1',
-			        ISBLANK('2026-1'[ID DOCENTE])
-			            || TRIM('2026-1'[ID DOCENTE]) = ""
-			    )
-			)
-			
-			```
-		formatString: 0
-		lineageTag: 61759d83-e45a-4256-8a31-9771d6e23417
-
-	measure Medida
-		lineageTag: eee37b51-995a-46c4-9662-800375db9751
-
-		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
-
 	measure 'Promedio Horas 2026-1 M1+P' = ```
 			
 			AVERAGE(RUD[HORAS 26-1 M1+P])

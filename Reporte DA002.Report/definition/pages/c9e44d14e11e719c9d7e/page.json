@@ -48,6 +48,19 @@
           }
         }
       }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "width": {
+            "expr": {
+              "Literal": {
+                "Value": "349L"
+              }
+            }
+          }
+        }
+      }
     ]
   },
   "visualInteractions": [

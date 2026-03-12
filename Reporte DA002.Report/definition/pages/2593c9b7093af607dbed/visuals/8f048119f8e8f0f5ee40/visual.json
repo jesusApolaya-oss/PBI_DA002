@@ -182,10 +182,10 @@
                     "Entity": "2026-1"
                   }
                 },
-                "Property": "DIA"
+                "Property": "% Avance"
               }
             },
-            "direction": "Descending"
+            "direction": "Ascending"
           }
         ]
       }

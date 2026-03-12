@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "255adca67373d4e92939",
   "position": {
-    "x": 617.14285714285722,
-    "y": 1565.7142857142876,
-    "z": 16000,
-    "height": 965.71428571428578,
-    "width": 644.28571428571433,
-    "tabOrder": 16000
+    "x": 618.33333333333337,
+    "y": 1853.3333333333335,
+    "z": 15000,
+    "height": 966.66666666666674,
+    "width": 645,
+    "tabOrder": 15000
   },
   "visual": {
     "visualType": "pivotTable",
@@ -125,7 +125,8 @@
             "queryRefs": [
               "RUD.Docente"
             ],
-            "isCollapsed": true
+            "isCollapsed": true,
+            "isPinned": true
           }
         ],
         "root": {}

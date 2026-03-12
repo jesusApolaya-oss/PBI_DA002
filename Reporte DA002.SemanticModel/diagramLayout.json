@@ -4,7 +4,7 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 0,
+        "x": 146.44068055233714,
         "y": 0
       },
       "nodes": [
@@ -20,19 +20,6 @@
             "width": 234
           },
           "zIndex": 3
-        },
-        {
-          "location": {
-            "x": 11.258389261744981,
-            "y": 147.54539888095852
-          },
-          "nodeIndex": "DA002_2025-2",
-          "nodeLineageTag": "64928db4-d7c4-4aea-8fd7-9227afd1f1f2",
-          "size": {
-            "height": 460,
-            "width": 234
-          },
-          "zIndex": 5
         },
         {
           "location": {

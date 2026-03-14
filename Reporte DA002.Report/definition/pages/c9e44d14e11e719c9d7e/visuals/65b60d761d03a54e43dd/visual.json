@@ -150,6 +150,48 @@
               "queryRef": "2026-1.SOCIO DE INTEGRACIÓN",
               "nativeQueryRef": "MODULO",
               "displayName": "MODULO"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2026-1"
+                    }
+                  },
+                  "Property": "TIPO AMBIENTE"
+                }
+              },
+              "queryRef": "2026-1.TIPO AMBIENTE",
+              "nativeQueryRef": "TIPO AMBIENTE"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2026-1"
+                    }
+                  },
+                  "Property": "AULA"
+                }
+              },
+              "queryRef": "2026-1.AULA",
+              "nativeQueryRef": "AULA"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2026-1"
+                    }
+                  },
+                  "Property": "HORA"
+                }
+              },
+              "queryRef": "2026-1.HORA",
+              "nativeQueryRef": "HORA"
             }
           ]
         }
@@ -634,6 +676,151 @@
         "type": "Categorical",
         "howCreated": "User",
         "isLockedInViewMode": true
+      },
+      {
+        "name": "7b20f260761d8382d937",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "2026-1"
+                  }
+                },
+                "Property": "ID Programacion"
+              }
+            },
+            "Function": 2
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "46696e90e972037e128c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "2026-1"
+              }
+            },
+            "Property": "DUEÑO CURSO"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "127acb6f3e8acb175674",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "2026-1"
+              }
+            },
+            "Property": "NOMBRE CURSO"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "411b59bfdda4d01ccd4a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "2026-1"
+              }
+            },
+            "Property": "MET EDU"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "8e982c468ac298e00196",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "2026-1"
+              }
+            },
+            "Property": "NRC"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "9c6bb7b6e2091c24010b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "2026-1"
+              }
+            },
+            "Property": "Real/Max"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "a15c3b5c4073731e1700",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "2026-1"
+              }
+            },
+            "Property": "SOCIO DE INTEGRACIÓN"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "cca0206c4515d2c670a6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "2026-1"
+              }
+            },
+            "Property": "TIPO AMBIENTE"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "0697577f0209d5e22407",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "2026-1"
+              }
+            },
+            "Property": "AULA"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "687b7d22002aad569e32",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "2026-1"
+              }
+            },
+            "Property": "HORA"
+          }
+        },
+        "type": "Categorical"
       }
     ]
   }

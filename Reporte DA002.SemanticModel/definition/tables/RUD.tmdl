@@ -420,22 +420,6 @@ table RUD
 
 		annotation SummarizationSetBy = Automatic
 
-	column COMENTARIOS_1
-		dataType: string
-		lineageTag: e3788ac8-b7db-40b7-b394-b7d08d8f882d
-		summarizeBy: none
-		sourceColumn: COMENTARIOS_1
-
-		annotation SummarizationSetBy = Automatic
-
-	column DETALLE_2
-		dataType: string
-		lineageTag: c4f48f3e-a3ae-442b-8b5c-69c0410d4d5c
-		summarizeBy: none
-		sourceColumn: DETALLE_2
-
-		annotation SummarizationSetBy = Automatic
-
 	partition RUD = m
 		mode: import
 		source =

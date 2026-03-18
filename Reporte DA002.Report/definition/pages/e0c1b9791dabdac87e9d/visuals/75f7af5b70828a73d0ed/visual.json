@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "3625a63ad60b4a640250",
+  "name": "75f7af5b70828a73d0ed",
   "position": {
-    "x": 1118.5714285714287,
-    "y": 118.57142857142858,
-    "z": 9000,
-    "height": 58.571428571428577,
-    "width": 150,
-    "tabOrder": 9000
+    "x": 181.42857142857144,
+    "y": 117.14285714285715,
+    "z": 1000,
+    "height": 57.142857142857146,
+    "width": 158.57142857142858,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "slicer",
@@ -23,11 +23,11 @@
                       "Entity": "2026-1"
                     }
                   },
-                  "Property": "AULA"
+                  "Property": "FACULTAD"
                 }
               },
-              "queryRef": "2026-1.AULA",
-              "nativeQueryRef": "AULA",
+              "queryRef": "2026-1.FACULTAD",
+              "nativeQueryRef": "FACULTAD",
               "active": true
             }
           ]
@@ -47,26 +47,26 @@
             }
           }
         }
+      ],
+      "general": [
+        {
+          "properties": {
+            "selfFilterEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
       ]
     },
+    "syncGroup": {
+      "groupName": "FACULTAD",
+      "fieldChanges": true,
+      "filterChanges": true
+    },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "5e85a102399f120dcb7b",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "2026-1"
-              }
-            },
-            "Property": "AULA"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

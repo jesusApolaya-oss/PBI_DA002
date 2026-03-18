@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "0d3743686f130e3e4178",
   "position": {
     "x": 12.857142857142858,
@@ -41,7 +41,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "FECHA DE ACTUALIZACIÓN 13/03/2026 A LAS 09:12",
+                    "value": "FECHA DE ACTUALIZACIÓN 18/03/2026 A LAS 17:15",
                     "textStyle": {
                       "fontFamily": "Segoe UI Semibold",
                       "fontSize": "24pt"

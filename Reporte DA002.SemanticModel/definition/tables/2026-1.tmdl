@@ -58,14 +58,12 @@ table 2026-1
 		annotation SummarizationSetBy = Automatic
 
 	column 'HRS PLAN CURSO'
-		dataType: double
+		dataType: string
 		lineageTag: 99cfd04e-83d1-4ce5-b0f4-f6cbbb31cd87
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: HRS PLAN CURSO
 
 		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	column NRC
 		dataType: string

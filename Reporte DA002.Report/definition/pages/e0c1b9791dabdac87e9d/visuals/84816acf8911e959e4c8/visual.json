@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "3625a63ad60b4a640250",
+  "name": "84816acf8911e959e4c8",
   "position": {
     "x": 1118.5714285714287,
     "y": 118.57142857142858,
@@ -50,23 +50,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "5e85a102399f120dcb7b",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "2026-1"
-              }
-            },
-            "Property": "AULA"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "85c7b4663952b783907d",
+  "name": "f751a0f2fc2290955bf4",
   "position": {
-    "x": 934,
+    "x": 761,
     "y": 0,
-    "z": 19000,
+    "z": 19001,
     "height": 63,
     "width": 173,
-    "tabOrder": 19000
+    "tabOrder": 19001
   },
   "visual": {
     "visualType": "actionButton",
@@ -45,7 +45,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'CURSOS 0 MATRICULADOS'"
+                  "Value": "'CURSOS 1-2-3 MATRICULADOS'"
                 }
               }
             }
@@ -77,7 +77,7 @@
             "navigationSection": {
               "expr": {
                 "Literal": {
-                  "Value": "'b19345e6467e776216e5'"
+                  "Value": "'e0c1b9791dabdac87e9d'"
                 }
               }
             }

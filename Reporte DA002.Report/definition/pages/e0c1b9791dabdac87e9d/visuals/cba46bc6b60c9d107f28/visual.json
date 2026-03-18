@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "85c7b4663952b783907d",
+  "name": "cba46bc6b60c9d107f28",
   "position": {
-    "x": 934,
+    "x": 1063.75,
     "y": 0,
-    "z": 19000,
-    "height": 63,
-    "width": 173,
-    "tabOrder": 19000
+    "z": 5000,
+    "height": 50,
+    "width": 216.25,
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "actionButton",
@@ -18,13 +18,24 @@
             "shapeType": {
               "expr": {
                 "Literal": {
-                  "Value": "'blank'"
+                  "Value": "'clearAllSlicers'"
                 }
               }
             }
           },
           "selector": {
             "id": "default"
+          }
+        },
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
           }
         }
       ],
@@ -45,7 +56,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'CURSOS 0 MATRICULADOS'"
+                  "Value": "'Borrar todas las segmentaciones'"
+                }
+              }
+            },
+            "horizontalAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
                 }
               }
             }
@@ -70,14 +88,14 @@
             "type": {
               "expr": {
                 "Literal": {
-                  "Value": "'PageNavigation'"
+                  "Value": "'ClearAllSlicers'"
                 }
               }
             },
-            "navigationSection": {
+            "tooltipPlaceholderText": {
               "expr": {
                 "Literal": {
-                  "Value": "'b19345e6467e776216e5'"
+                  "Value": "'Borrar todas las segmentaciones de datos de esta página'"
                 }
               }
             }

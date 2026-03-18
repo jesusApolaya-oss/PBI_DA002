@@ -292,22 +292,6 @@ table RUD
 
 		annotation SummarizationSetBy = Automatic
 
-	column 'HORAS CRONO M1'
-		dataType: string
-		lineageTag: 810408eb-625b-4b2c-9803-85552acfdf38
-		summarizeBy: none
-		sourceColumn: HORAS CRONO M1
-
-		annotation SummarizationSetBy = Automatic
-
-	column 'HORAS CRONO M2'
-		dataType: string
-		lineageTag: 6ebd3349-1b75-41bc-ac89-2e3432c3baac
-		summarizeBy: none
-		sourceColumn: HORAS CRONO M2
-
-		annotation SummarizationSetBy = Automatic
-
 	column 'HORAS REQUERIDAS REGÚN ROL'
 		dataType: string
 		lineageTag: 2c2ad03d-8ade-4c77-9ffc-1e9bfad60c08
@@ -353,14 +337,6 @@ table RUD
 		lineageTag: cbfb0e17-1fb9-45fc-9210-85c3cf6001bf
 		summarizeBy: none
 		sourceColumn: Mayor Grado
-
-		annotation SummarizationSetBy = Automatic
-
-	column Genero
-		dataType: string
-		lineageTag: af02e585-6f06-4f7c-b663-433a5a64b84b
-		summarizeBy: none
-		sourceColumn: Genero
 
 		annotation SummarizationSetBy = Automatic
 
@@ -417,6 +393,30 @@ table RUD
 		lineageTag: ae949b72-e264-4492-a76f-7eda815b95f8
 		summarizeBy: none
 		sourceColumn: DETALLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sexo
+		dataType: string
+		lineageTag: 1036b0da-21ed-4a16-acf5-886238a15bd8
+		summarizeBy: none
+		sourceColumn: Sexo
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMENTARIOS_1
+		dataType: string
+		lineageTag: 31126f52-e293-4f47-8103-c9a8574bf02c
+		summarizeBy: none
+		sourceColumn: COMENTARIOS_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column DETALLE_2
+		dataType: string
+		lineageTag: 55656d99-e8ce-4086-8d5c-439e56070045
+		summarizeBy: none
+		sourceColumn: DETALLE_2
 
 		annotation SummarizationSetBy = Automatic
 

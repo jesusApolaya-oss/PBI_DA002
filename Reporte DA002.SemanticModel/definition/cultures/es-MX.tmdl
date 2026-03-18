@@ -3925,52 +3925,6 @@ cultureInfo es-MX
 			        }
 			      ]
 			    },
-			    "rud.horas_crono_m1": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "RUD",
-			          "ConceptualProperty": "HORAS CRONO M1"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "horas crono m1": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "hora crono m1": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.78
-			          }
-			        }
-			      ]
-			    },
-			    "rud.horas_crono_m2": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "RUD",
-			          "ConceptualProperty": "HORAS CRONO M2"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "horas crono m2": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "hora crono m2": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.78
-			          }
-			        }
-			      ]
-			    },
 			    "rud.horas_requeridas_regún_rol": {
 			      "Definition": {
 			        "Binding": {
@@ -4089,22 +4043,6 @@ cultureInfo es-MX
 			      "Terms": [
 			        {
 			          "mayor grado": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
-			    "rud.genero": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "RUD",
-			          "ConceptualProperty": "Genero"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "genero": {
 			            "State": "Generated"
 			          }
 			        }
@@ -4671,19 +4609,7 @@ cultureInfo es-MX
 			          "ConceptualProperty": "NOMBRE CURSO"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "CURSO": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "da002_20252.dueño_curso": {
 			      "Definition": {
@@ -4692,19 +4618,7 @@ cultureInfo es-MX
 			          "ConceptualProperty": "DUEÑO CURSO"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "CARRERA": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    }
 			  },
 			  "Relationships": {

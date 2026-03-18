@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "3625a63ad60b4a640250",
+  "name": "5a22c12afd29ba5b34b4",
   "position": {
-    "x": 1118.5714285714287,
+    "x": 4.2857142857142856,
     "y": 118.57142857142858,
-    "z": 9000,
-    "height": 58.571428571428577,
-    "width": 150,
-    "tabOrder": 9000
+    "z": 0,
+    "height": 57.142857142857146,
+    "width": 171.42857142857144,
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "slicer",
@@ -20,15 +20,16 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "2026-1"
+                      "Entity": "Sede"
                     }
                   },
-                  "Property": "AULA"
+                  "Property": "formato"
                 }
               },
-              "queryRef": "2026-1.AULA",
-              "nativeQueryRef": "AULA",
-              "active": true
+              "queryRef": "Sede.formato",
+              "nativeQueryRef": "Sede",
+              "active": true,
+              "displayName": "Sede"
             }
           ]
         }
@@ -47,22 +48,40 @@
             }
           }
         }
+      ],
+      "general": [
+        {
+          "properties": {
+            "selfFilterEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
       ]
+    },
+    "syncGroup": {
+      "groupName": "formato",
+      "fieldChanges": true,
+      "filterChanges": true
     },
     "drillFilterOtherVisuals": true
   },
   "filterConfig": {
     "filters": [
       {
-        "name": "5e85a102399f120dcb7b",
+        "name": "8e22a3fa75de42829a76",
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "2026-1"
+                "Entity": "Sede"
               }
             },
-            "Property": "AULA"
+            "Property": "formato"
           }
         },
         "type": "Categorical"

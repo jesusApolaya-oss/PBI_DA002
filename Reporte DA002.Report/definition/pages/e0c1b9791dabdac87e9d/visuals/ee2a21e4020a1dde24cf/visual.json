@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "198fdf10c966017d5912",
+  "name": "ee2a21e4020a1dde24cf",
   "position": {
     "x": 80,
     "y": 193.75,
@@ -534,7 +534,21 @@
                     [
                       {
                         "Literal": {
-                          "Value": "0D"
+                          "Value": "1D"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "2D"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "3D"
                         }
                       }
                     ]
@@ -554,7 +568,7 @@
         }
       },
       {
-        "name": "0df1387243da05e7e71d",
+        "name": "95e5449ec352b019af6a",
         "field": {
           "Aggregation": {
             "Expression": {
@@ -573,7 +587,7 @@
         "type": "Advanced"
       },
       {
-        "name": "57a0d75bd474069b82a3",
+        "name": "bed3b46c4569c8ce2e67",
         "field": {
           "Column": {
             "Expression": {
@@ -587,7 +601,7 @@
         "type": "Categorical"
       },
       {
-        "name": "41f4958cdf7c0d64530c",
+        "name": "782daf836089aebccca8",
         "field": {
           "Column": {
             "Expression": {
@@ -601,7 +615,7 @@
         "type": "Categorical"
       },
       {
-        "name": "6739b662dbdc02740834",
+        "name": "20e289074629a5d9aec8",
         "field": {
           "Column": {
             "Expression": {
@@ -615,7 +629,7 @@
         "type": "Categorical"
       },
       {
-        "name": "32c542add9dbad1f5bf7",
+        "name": "efd4044687d1b9b6aeb8",
         "field": {
           "Column": {
             "Expression": {
@@ -629,7 +643,7 @@
         "type": "Categorical"
       },
       {
-        "name": "360509dadfd9b1313468",
+        "name": "24b0bdee8a222743e5d6",
         "field": {
           "Column": {
             "Expression": {
@@ -643,7 +657,7 @@
         "type": "Categorical"
       },
       {
-        "name": "8cbbfab4e6785a7f4fc1",
+        "name": "a9629dc180ea1dc08516",
         "field": {
           "Column": {
             "Expression": {

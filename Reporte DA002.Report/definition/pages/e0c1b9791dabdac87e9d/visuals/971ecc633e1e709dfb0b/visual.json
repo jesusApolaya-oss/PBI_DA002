@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "3625a63ad60b4a640250",
+  "name": "971ecc633e1e709dfb0b",
   "position": {
-    "x": 1118.5714285714287,
-    "y": 118.57142857142858,
-    "z": 9000,
+    "x": 785.71428571428578,
+    "y": 117.14285714285715,
+    "z": 4000,
     "height": 58.571428571428577,
-    "width": 150,
-    "tabOrder": 9000
+    "width": 192.85714285714286,
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "slicer",
@@ -23,11 +23,11 @@
                       "Entity": "2026-1"
                     }
                   },
-                  "Property": "AULA"
+                  "Property": "DOCENTE"
                 }
               },
-              "queryRef": "2026-1.AULA",
-              "nativeQueryRef": "AULA",
+              "queryRef": "2026-1.DOCENTE",
+              "nativeQueryRef": "DOCENTE",
               "active": true
             }
           ]
@@ -47,26 +47,21 @@
             }
           }
         }
+      ],
+      "general": [
+        {
+          "properties": {
+            "selfFilterEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "5e85a102399f120dcb7b",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "2026-1"
-              }
-            },
-            "Property": "AULA"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "091189f1c10ddd416dec",
   "position": {
     "x": 11.25,
@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "CONTROL DE PROGRAMACIÓN HORARIA AL 13.03.26",
+                    "value": "CONTROL DE PROGRAMACIÓN HORARIA AL 18.03.26",
                     "textStyle": {
                       "fontFamily": "Segoe UI Semibold",
                       "fontSize": "24pt"

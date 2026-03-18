@@ -13,7 +13,7 @@ queryGroup 'Errores en las consultas: 19/02/2026 16:21:46'
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["Sede","Conex","2026-1","RUD","Errores en 2026-1"]
+annotation PBI_QueryOrder = ["Sede","Conex","2026-1","RUD"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
